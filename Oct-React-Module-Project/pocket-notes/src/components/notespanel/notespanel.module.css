@@ -1,0 +1,104 @@
+.notesPanel {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background: #dde5f5;
+  height: 100vh;
+}
+
+/* Header */
+.header {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  color: white;
+  background: #001f99;
+}
+
+.contactIcon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: white;
+  margin-right: 10px;
+  border: 1.5px solid white;
+}
+
+.groupName {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Notes Display */
+.notesContainer {
+  flex-grow: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.noteBox {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  align-self: flex-start;
+}
+
+.noteText {
+  font-size: 1rem;
+  color: black;
+}
+
+.timestamp {
+  font-size: 0.8rem;
+  color: gray;
+  display: block;
+  text-align: right;
+  margin-top: 5px;
+}
+
+/* Input Box */
+.inputContainer {
+  display: flex;
+  padding: 15px;
+  background: #001f99;
+}
+
+.inputBox {
+  width: 100%;
+  padding: 12px;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+  outline: none;
+  background: white;
+}
+
+/* Send Button Styling */
+.sendButton {
+  background: #007bff;
+  border: none;
+  color: white;
+  padding: 12px 15px;
+  border-radius: 50%;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sendButton:hover {
+  background: #0056b3;
+}
+
+/* Send Icon Styling */
+.sendIcon {
+  font-size: 1.2rem;
+}

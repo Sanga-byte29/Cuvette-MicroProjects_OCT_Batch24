@@ -1,0 +1,47 @@
+/* Container - Full screen layout */
+.container {
+    display: flex;
+    height: 90vh;
+    overflow: hidden;
+    border: 1px solid black;
+  }
+  
+ 
+  
+  /* Main Content */
+  .mainContent {
+    width: 75%;
+    background-color: #e6efff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+  }
+  
+  .image {
+    width: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .heading {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .description {
+    font-size: 1rem;
+    color: #555;
+    margin-top: 10px;
+  }
+  
+  .encryption {
+    position: relative;
+    bottom: -150px;
+    font-size: 0.9rem;
+    color: gray;
+    display: flex;
+    align-items: center;
+  }
+  

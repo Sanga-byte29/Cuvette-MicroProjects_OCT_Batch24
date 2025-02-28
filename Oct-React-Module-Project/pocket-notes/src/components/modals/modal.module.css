@@ -1,0 +1,106 @@
+/* Modal Overlay */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5); /* Dark background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Modal Box */
+  .modal {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    width: 400px;
+    text-align: left;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Heading */
+  .heading {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  /* Label */
+  .label {
+    display: block;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* Input Field */
+  .input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    outline: none;
+    margin-bottom: 15px;
+  }
+  
+  /* Color Selection */
+  .colorContainer {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .colorCircle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .colorCircle:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Selected Color */
+  .selected {
+    border: 2px solid black;
+  }
+  
+  /* Buttons */
+  .buttonContainer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+  
+  .createButton {
+    background: #001f99;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .closeButton {
+    background: gray;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .createButton:hover {
+    background: #001577;
+  }
+  
+  .closeButton:hover {
+    background: #555;
+  }
+  
